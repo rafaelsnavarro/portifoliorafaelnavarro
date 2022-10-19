@@ -14,11 +14,36 @@ export const Image = styled.img`
   justify-content: right;
 `;
 
+export const Div = styled.div`
+  width: 70%;
+  height: 55vh;
+  display: flex;
+
+`;
+export const Div2 = styled.div`
+  width: 70%;
+  height: 55vh;
+  display: flex;
+
+`;
+
+export const Div3 = styled.div`
+  width: 70%;
+  height: 55vh;
+  display: flex;
+`;
+export const Div4 = styled.div`
+  width: 70%;
+  height: 55vh;
+  display: flex;
+`;
+
+
 export const Paragrafo = styled.p`
   font-family: "Montserrat", sans-serif;
-  width: 500px;
+  width: 700px;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
   @media (max-width: 768px) {
     width: 300px;
@@ -28,9 +53,9 @@ export const Paragrafo = styled.p`
 `;
 export const Texto = styled.p`
   font-family: "Montserrat", sans-serif;
-  width: 500px;
+  width: 700px;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
   @media (max-width: 768px) {
     width: 300px;
@@ -40,9 +65,9 @@ export const Texto = styled.p`
 `;
 export const Textotv = styled.p`
 font-family: "Montserrat", sans-serif;
-  width: 500px;
+  width: 700px;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
   @media (max-width: 768px) {
     width: 300px;
@@ -53,9 +78,9 @@ font-family: "Montserrat", sans-serif;
 
 export const Text = styled.p`
   font-family: "Montserrat", sans-serif;
-  width: 500px;
+  width: 700px;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
   @media (max-width: 768px) {
     width: 300px;

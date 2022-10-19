@@ -14,7 +14,7 @@ export const H1P = styled.h1`
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 1rem;
   @keyframes typing {
     from {
       width: 0;

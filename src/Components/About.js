@@ -1,5 +1,4 @@
 import React from 'react'
-import { Globalstyle } from '../Styles/Globalstyle'
 import * as S from "../Styles/About"
 import About2 from '../Assets/About/About2.jpg'
 import Unama from '../Assets/About/unama.jpg'
@@ -14,27 +13,34 @@ import {  IoLogoGithub } from "react-icons/io5";
 export default function Sobre() {
   return (
     <S.Section2>
-      <Globalstyle/>
+      <S.Div>
       <S.Image src={About2} alt="" />
       <S.Paragrafo>Saudações, meu nome é Rafael Navarro, sou natural de Santarém-PA.
         Atualmente em transição de carreira da área de Telecom para Programação, estou em busca da 
         minha primeira oportunidade de emprego como Dev Front End Júnior. Abaixo contarei um pouco sobre minha carreira profissional e pessoal. 
         </S.Paragrafo>
+        </S.Div>
+        <S.Div2>
       <S.Image src= {Unama} alt="" /> 
       <S.Text>
         Vamos começar falando sobre aonde iniciei os estudos, na Universidade da Amazônia - UNAMA.
         Aonde aprendi conceitos de programação, gestão, administração. No início de 2018. 
       </S.Text>
+      </S.Div2>
+      <S.Div3>
       <S.Image src={Amz} alt ="" />
       <S.Texto>
         Minha primeira experiência profissional foi na empresa Amazonet Provedor de Internet, 
         aonde aprendi conceitos básicos de Redes de Computadores, atendimento ao cliente e Suporte Técnico para
         cliente e equipe técnica. Iniciei em Novembro de 2018
       </S.Texto>
+      </S.Div3>
+      <S.Div4>
       <S.Image src ={Tv} alt ="" />
       <S.Textotv>
         Um registro de uma visita aos estúdios da TV Tapajós, filial da TV Globo em Santarém. 
       </S.Textotv>
+      </S.Div4>
 
 
 

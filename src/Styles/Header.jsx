@@ -18,13 +18,13 @@ export const Listinha = styled.li`
   list-style: none;
   justify-content:center;
   width: 200px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   @media (max-width: 768px) {
-    width:120px;
+    width:100px;
     align-items:center;
     justify-content:center;
-    font-size:25px;
+    font-size:20px;
   }
 `;
 export const Listas = styled(Link)`
