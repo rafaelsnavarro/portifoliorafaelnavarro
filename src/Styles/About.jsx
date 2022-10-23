@@ -47,7 +47,7 @@ export const Paragrafo = styled.p`
   color: white;
   @media (max-width: 768px) {
     width: 300px;
-    font-size: 30px;
+    font-size: 14px;
     color: white;
   }
 `;
@@ -59,8 +59,8 @@ export const Texto = styled.p`
   color: white;
   @media (max-width: 768px) {
     width: 300px;
-    font-size: 30px;
-    color: white;  
+    font-size: 14px;
+    color: white;
   }
 `;
 export const Textotv = styled.p`
@@ -71,7 +71,7 @@ font-family: "Montserrat", sans-serif;
   color: white;
   @media (max-width: 768px) {
     width: 300px;
-    font-size: 30px;
+    font-size: 14px;
     color: white;  
   }
 `;
@@ -84,8 +84,8 @@ export const Text = styled.p`
   color: white;
   @media (max-width: 768px) {
     width: 300px;
-    font-size: 30px;
-    color: white;  
+    font-size: 14px;
+    color: white;
   }
 `;
 

@@ -13,7 +13,7 @@ export default function Home() {
 
       <S.Caixa3>
         <S.Foto src={Update} alt="imagem" />
-        <S.H1P></S.H1P>
+        <S.H1P>Rafael S. Navarro. Desenvolvedor Front End</S.H1P>
         <S.Footer>
           <S.ReactIcons>
             <S.Links href="https://github.com/rafaelsnavarro" target="blank">
