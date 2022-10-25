@@ -3,7 +3,7 @@ import { Globalstyle } from "../Styles/Globalstyle";
 import * as S from "../Styles/Header";
 
 
-const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
+const Header = ({Rota1, Rota3, Rota4}) => {
   const [open, setOpen] = useState(true);
 
   const Toggle = () => {
@@ -18,7 +18,6 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
           <S.Listinha>
              <S.Listas to='/'>{Rota1}</S.Listas> 
           </S.Listinha>
-        
           <S.Listinha>
             <S.Listas to='/Projects'>{Rota3}</S.Listas>
           </S.Listinha>

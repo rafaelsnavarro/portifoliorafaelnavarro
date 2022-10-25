@@ -12,15 +12,16 @@ export default function Sobre() {
         Atualmente em transição de carreira da área de Telecom para Programação, estou em busca da 
         minha primeira oportunidade de emprego como Dev Front End Júnior. 
         </S.Paragrafo>
-      <S.Paragrafo2>
+        </S.Div>
+      <S.Div>
+      <S.Paragrafo>
         Com meu curso de Front End finalizado pela empresa Vai Na Web, reforcei meus skills em HTML, CSS, Javascript e React.
         Com disponibilidade de inicio imediáto, podendo exercer minha profissão em home office.
-      </S.Paragrafo2>
-      <S.Image2 src={About3} alt="" />
-
-        </S.Div>
-        
+      </S.Paragrafo>
+      <S.Image src={About3} alt="" />
+      </S.Div>
       </S.Section2>
+
      
   )
 }

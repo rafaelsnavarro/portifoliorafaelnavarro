@@ -4,7 +4,7 @@ export const ContainerM = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
+  margin-top: -40px;
 `;
 
 export const H1P = styled.h1`
@@ -34,8 +34,10 @@ export const H1P = styled.h1`
 
   @media (max-width: 768px) {
     width: 50%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-right: 19vh;
     color: white;
+
   }
 `;
 
@@ -45,6 +47,10 @@ export const Caixa3 = styled.div`
   width: 20vw;
   justify-content: center;
   align-items: center;
+  @media (max-width: 768px){
+  align-items: center;
+  width: 0vh;
+  }
 `;
 
 export const Foto = styled.img`
@@ -58,8 +64,9 @@ export const Foto = styled.img`
   @media (max-width: 768px) {
     width: 250px;
     height: 350px;
-    margin-top: 19vh;
-    margin-bottom: 20vh; 
+    margin-top: 10vh;
+    margin-bottom: 10vh; 
+    margin-right: 20vh;
   }
 `;
 export const Footer = styled.ul`
@@ -73,9 +80,15 @@ export const ReactIcons = styled.li`
   width: 80px;
   font-size: 30px;
   text-decoration: none;
+  @media (max-width:768px) {
+  width: 80px;
+  font-size: 30px;
+  text-decoration: none;
+  }
 `;
 
 export const Links = styled.a`
   text-decoration: none;
   color: white;
+  margin-right: 20vh;
 `;

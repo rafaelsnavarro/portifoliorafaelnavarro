@@ -41,7 +41,7 @@ export const Listas = styled(Link)`
     color: red;
   }
   @media screen {
-    
+   margin-right: 18vh;
   }
 `;
 
@@ -92,6 +92,4 @@ export const Teste = styled.div`
     justify-content:center;
     align-items:center;
   }
-
-
 `;

@@ -15,14 +15,6 @@ export const Image = styled.img`
   justify-content: right;
   margin-top: 2vh;
 `;
-export const Image2 = styled.img`
-  width: 300px;
-  height: 350px;
-  border-radius: 10px 10px 10px 10px;
-  border: solid black 2px;
-  justify-content: right;
-  margin-top: 2vh;
-`;
 
 export const Div = styled.div`
   width: 70%;
@@ -43,30 +35,4 @@ export const Paragrafo = styled.p`
     color: white;
   }
 `;
-export const Paragrafo2 = styled.p`
-  font-family: "Montserrat", sans-serif;
-  width: 700px;
-  font-size: 1rem;
-  font-weight: 300;
-  margin-top: 2vh;
-  color: white;
-  @media (max-width: 768px) {
-    width: 300px;
-    font-size: 14px;
-    color: white;
-  }
 
-`;
-
-export const Texto = styled.p`
-  font-family: "Montserrat", sans-serif;
-  width: 700px;
-  font-size: 1rem;
-  font-weight: 300;
-  color: white;
-  @media (max-width: 768px) {
-    width: 300px;
-    font-size: 14px;
-    color: white;
-  }
-`;
