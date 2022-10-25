@@ -1,5 +1,4 @@
 import { useState } from "react";
-import headers from "../Assets/Header/headers.png";
 import { Globalstyle } from "../Styles/Globalstyle";
 import * as S from "../Styles/Header";
 
@@ -14,7 +13,6 @@ const Header = ({Rota1, Rota2, Rota3, Rota4}) => {
   return (
     <S.CaixaM>   
       <Globalstyle />
-        <S.Img2 src={headers} alt="" />
        <S.Navp>
         <S.Menu>
           <S.Listinha>

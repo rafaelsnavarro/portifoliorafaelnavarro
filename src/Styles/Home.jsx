@@ -38,7 +38,7 @@ export const H1P = styled.h1`
     color: white;
   }
 `;
-export const H2P = styled.h2``;
+
 export const Caixa3 = styled.div`
   display: flex;
   flex-direction: column;
@@ -51,6 +51,9 @@ export const Foto = styled.img`
   justify-content: center;
   align-items: center;
   width: 350px;
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+
   border-radius: 10px 10px 10px 10px;
   @media (max-width: 768px) {
     width: 250px;
