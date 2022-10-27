@@ -6,6 +6,7 @@ import Bruxo from '../Assets/Projects/bruxo.jpg'
 import Portflow from '../Assets/Projects/portflow.jpg'
 import LOL from '../Assets/Projects/lol.jpg'
 import Velha from '../Assets/Projects/velha.jpg'
+import ODS from '../Assets/Projects/ods.jpg'
 import * as S from "../Styles/Projects"
 
 export default function Projetos() {
@@ -53,6 +54,13 @@ export default function Projetos() {
         <S.Projeto1 src={LOL} alt="LOL" /> {" "}
         </a>
         <S.Titulo1>League of Legends</S.Titulo1>
+      </figure>
+      <figure>
+        <a href="https://ods-three.vercel.app/" rel="noreferrer">
+        {" "}
+        <S.Projeto1 src={ODS} alt="ODS" /> {" "}
+        </a>
+        <S.Titulo1>ODS</S.Titulo1>
       </figure>
     </S.Container>
   )

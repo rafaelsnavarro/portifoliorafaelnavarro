@@ -47,6 +47,7 @@ export const Caixa3 = styled.div`
   width: 20vw;
   justify-content: center;
   align-items: center;
+  width: 0vh;
   @media (max-width: 768px){
   align-items: center;
   width: 0vh;
@@ -57,7 +58,7 @@ export const Foto = styled.img`
   justify-content: center;
   align-items: center;
   width: 350px;
-  margin-top: 9vh;
+  margin-top: 11vh;
   margin-bottom: 9vh;
 
   border-radius: 10px 10px 10px 10px;
@@ -90,5 +91,5 @@ export const ReactIcons = styled.li`
 export const Links = styled.a`
   text-decoration: none;
   color: white;
-  margin-right: 20vh;
+  margin-right: 3vh;
 `;
