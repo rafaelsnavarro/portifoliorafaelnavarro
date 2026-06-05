@@ -1,95 +1,128 @@
 import styled from "styled-components";
 
-export const ContainerM = styled.div`
+export const ContainerM = styled.main`
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -40px;
+  padding: 4rem 2rem;
 `;
 
-export const H1P = styled.h1`
-  color: white;
-  animation: typing 4s 1s normal steps(48) both, blink 500ms infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 5px solid;
-  font-family: monospace;
-  font-size: 1.5rem;
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 23em;
-    }
-  }
-  @keyframes blink {
-    from {
-      border-right: 5px solid;
-    }
-    to {
-      border-color: transparent;
-    }
-  }
+export const Content = styled.section`
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
 
   @media (max-width: 768px) {
-    width: 50%;
-    font-size: 1.1rem;
-    margin-right: 19vh;
-    color: white;
-
+    flex-direction: column-reverse;
+    text-align: center;
   }
 `;
 
-export const Caixa3 = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  justify-content: center;
-  align-items: center;
-  width: 0vh;
-  @media (max-width: 768px){
-  align-items: center;
-  width: 0vh;
+export const TextBox = styled.div`
+  max-width: 560px;
+`;
+
+export const Subtitle = styled.p`
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+`;
+
+export const Title = styled.h1`
+  color: #ffffff;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
   }
+`;
+
+export const Description = styled.p`
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+`;
+
+export const ButtonBox = styled.div`
+  display: flex;
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+`;
+
+export const Button = styled.a`
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+`;
+
+export const ImageBox = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
 export const Foto = styled.img`
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  margin-top: 11vh;
-  margin-bottom: 9vh;
+  width: 320px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
 
-  border-radius: 10px 10px 10px 10px;
   @media (max-width: 768px) {
-    width: 250px;
-    height: 350px;
-    margin-top: 10vh;
-    margin-bottom: 10vh; 
-    margin-right: 20vh;
+    width: 260px;
+    height: 340px;
   }
 `;
+
 export const Footer = styled.ul`
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
   display: flex;
-`;
-export const ReactIcons = styled.li`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  width: 80px;
-  font-size: 30px;
-  text-decoration: none;
-  @media (max-width:768px) {
-  width: 80px;
-  font-size: 30px;
-  text-decoration: none;
+  gap: 1rem;
+  padding: 0;
+
+  @media (max-width: 768px) {
+    position: static;
+    justify-content: center;
+    margin-top: 2rem;
   }
+`;
+
+export const ReactIcons = styled.li`
+  list-style: none;
+  font-size: 2rem;
 `;
 
 export const Links = styled.a`
-  text-decoration: none;
-  color: white;
-  margin-right: 3vh;
+  color: #ffffff;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+`;
+
+export const Techs = styled.p`
+  color: #b22222;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
 `;

@@ -1,13 +1,17 @@
-import React from 'react'
-import Rotas from './Rotas/Rotas'
-import { Globalstyle } from './Styles/Globalstyle'
+import Home from "./Components/Home";
+import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
+import About from "./Components/About";
 
-export default function App() {
+function App() {
   return (
-    <div>
-
-      <Rotas/>
-      <Globalstyle />
-    </div>
-  )
+    <>
+      <Home />
+      <Skills />
+      <Projects />
+      <About />
+    </>
+  );
 }
+
+export default App;
